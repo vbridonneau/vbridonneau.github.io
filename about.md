@@ -26,8 +26,7 @@ Dans cette section, vous trouverez mes expériences professionnelles au cours de
 
 | Entreprise | Lieu | Accomplissement | Période |
 | --- | --- | --- | --- |
-| Laboratoire d'informatique, de traitement de l'information et des systèmes (LITIS) | France - Le Havre | 
-Attaché Temporaire d'Enseignement et de Recherche (ATER) | Septembre 2023 - Aujourd'hui |
+| Laboratoire d'informatique, de traitement de l'information et des systèmes (LITIS) | France - Le Havre | Attaché Temporaire d'Enseignement et de Recherche (ATER) | Septembre 2023 - Aujourd'hui |
 | Laboratoire d'informatique, de traitement de l'information et des systèmes (LITIS) | France - Le Havre | Doctorant en Informatique | Octobre 2020 - Décembre 2024 |
 | INRIA - Bordeaux-Sud Ouest | France - Talence | High Performance Computing (HPC) code instrumentation | February 2020 - August 2020 (7 months) |
 | ICL Laboratory | États-Unis - Tenessee - Knoxville | Checkpoint routines for HPC applications | Juin 2019 - Septembre 2019 (3 mois) |
