@@ -12,6 +12,8 @@ J'ai également quelques bases en ce qui concerne la théorie du calcul haute pe
 
 ## Éducation
 
+Cette section regroupe mon parcours académique jusqu'à l'obtention de mon doctorat :
+
 | Lieu | Période | Diplôme |
 | --- | --- | --- |
 | Laboratoire d'informatique, de traitement de l'information et des systèmes (LITIS) à Le Havre | 2020 - 2024 | Docteur en informatique |
@@ -19,6 +21,8 @@ J'ai également quelques bases en ce qui concerne la théorie du calcul haute pe
 | Preparatory class | 2015 - 2017 | |
 
 ## Expéricences professionelles
+
+Dans cette section, vous trouverez mes expériences professionnelles au cours de ces dernières années :
 
 | Entreprise | Lieu | Accomplissement | Période |
 | --- | --- | --- | --- |
@@ -31,7 +35,7 @@ Attaché Temporaire d'Enseignement et de Recherche (ATER) | Septembre 2023 - Auj
 
 ## Détails
 
-Vous trouverez ici plus de détails sur les tâches que j'ai accomplies lors de mes différentes expériences professionelles:
+Vous trouverez ici plus de détails sur les tâches que j'ai accomplies lors de mes différentes expériences professionelles :
 
 1. Attaché Temporaire d'Enseignement et de Recherche (ATER) :
    - Apprentissage des bases de la programmation et de l'algorithmique avec le langage *processing* à des licenses 1. L'intégrlité des cours se faisait en TP avec un partie théorique et une partie appliquée.
@@ -48,9 +52,10 @@ Vous trouverez ici plus de détails sur les tâches que j'ai accomplies lors de 
 
 ## Publications
 
+Cette section regroupe mes différentes publications (revues et conférences) :
+
 | Title | Conference | Link |
 | --- | --- | --- |
 | Dynamic Graphs Generators Analysis: an Illustrative Case Study | 2nd Symposium on Algorithmic Foundations of Dynamic Networks | [Proceedings](https://drops.dagstuhl.de/storage/00lipics/lipics-vol257-sand2023/LIPIcs.SAND.2023.8/LIPIcs.SAND.2023.8.pdf) |
-| Asymptotic Dynamic Graph Order Evolution
-Analysis | Applied Network Science | [Springer](https://link.springer.com/content/pdf/10.1007/s41109-024-00615-5.pdf) |
+| Asymptotic Dynamic Graph Order Evolution Analysis | Applied Network Science | [Springer](https://link.springer.com/content/pdf/10.1007/s41109-024-00615-5.pdf) |
 | DynamicScore: A Novel Metric for Quantifying Graph Dynamics | Complex Networks & Their Applications XII | [arxiv](arxiv.org/pdf/2309.05320) |
