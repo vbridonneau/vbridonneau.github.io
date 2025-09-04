@@ -1,0 +1,190 @@
+/* === Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto+Mono:wght@400;700&display=swap');
+
+/* === Global Styles === */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafc;
+  color: #2c2c2c;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  color: #1a202c;
+  letter-spacing: -0.02em;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+/* === Links === */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+a:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+/* === Sidebar (Profile) === */
+.sidebar {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 1.2em;
+}
+
+.sidebar img {
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  margin-bottom: 1em;
+}
+
+.sidebar p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* === Archive Items (Teaching, Publications, Blog posts) === */
+.archive__item {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  padding: 1.3em 1.6em;
+  margin-bottom: 1.6em;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.archive__item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+.archive__item-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.archive__item-excerpt {
+  color: #555;
+  font-style: italic;
+  margin-top: 0.4em;
+}
+
+/* === About Page Enhancements === */
+.page__content {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.page__content h2 {
+  border-left: 4px solid #2563eb;
+  padding-left: 0.6em;
+  margin-top: 2em;
+}
+
+/* === Buttons (for CV download, links, etc.) === */
+.btn {
+  display: inline-block;
+  background: #2563eb;
+  color: white !important;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.btn:hover {
+  background: #1e40af;
+  text-decoration: none;
+}
+
+/* === CV Page Styling === */
+.cv .archive {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 2.2em;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  margin-top: 1.5em;
+}
+
+/* Section Titles */
+.cv h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1e3a8a; /* modern blue */
+  border-left: 5px solid #2563eb;
+  padding-left: 0.6em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* List items inside CV */
+.cv ul {
+  list-style: none;
+  padding-left: 0;
+}
+.cv li {
+  margin-bottom: 0.8em;
+  padding-left: 1.4em;
+  position: relative;
+}
+.cv li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  font-size: 1.2em;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+/* Timeline effect for sections */
+.cv-section {
+  margin-bottom: 2em;
+}
+.cv-section .item {
+  margin-bottom: 1.2em;
+  padding: 1em 1.2em;
+  background: #f9fafc;
+  border-left: 4px solid #2563eb;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.cv-section .item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Buttons (Download CV, links) */
+.cv .btn {
+  display: inline-block;
+  background: #2563eb;
+  color: white !important;
+  padding: 0.6em 1.3em;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 1.2em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  transition: background 0.2s ease-in-out, transform 0.2s ease;
+}
+.cv .btn:hover {
+  background: #1e40af;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Highlight publications links */
+.cv a {
+  color: #2563eb;
+  font-weight: 500;
+}
+.cv a:hover {
+  color: #1e40af;
+}
