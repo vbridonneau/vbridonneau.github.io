@@ -65,4 +65,4 @@ In addition, I developed online teaching resources such as a [GitHub course wiki
 - 🔬 **Researcher** in complex systems and temporal networks  
 - ⚡ **HPC experience** (MPI, program verification, fault tolerance)
 
-For more details, dsownload my CV as a PDF: [Research CV (updated Feb 2025)](/files/CV_Recherche.pdf){: .btn }
+For more details, download my CV as a PDF: [Research CV (updated Feb 2025)](/files/CV_Recherche.pdf){: .btn }
