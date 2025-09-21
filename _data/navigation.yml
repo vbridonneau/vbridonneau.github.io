@@ -6,7 +6,21 @@
 #
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
+# Navigation principale française
+main_fr:
+  - title: "Publications"
+    url: /fr/publications/
 
+  - title: "Conférences"
+    url: /fr/talks/    
+
+  - title: "Enseignement"
+    url: /fr/teaching/    
+      
+  - title: "CV"
+    url: /fr/cv/
+    
+# Navigation principale anglaise
 main:
   - title: "Publications"
     url: /publications/
