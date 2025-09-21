@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: archive
 title: "Résumé / CV"
 permalink: /cv/

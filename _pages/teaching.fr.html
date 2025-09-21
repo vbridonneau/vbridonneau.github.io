@@ -1,17 +1,15 @@
 ---
-lang: en
+lang: fr
 layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+title: "Enseignement"
+permalink: /fr/teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
+{% for post in site.teaching reversed %}
   {% if post.lang == page.lang or (post.lang == nil and page.lang == "fr") %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-

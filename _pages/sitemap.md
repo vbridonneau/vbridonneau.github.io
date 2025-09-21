@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: archive
 title: "Sitemap"
 permalink: /sitemap/
