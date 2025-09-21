@@ -125,16 +125,24 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="http://localhost:4000/">About me</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg persist">
+            <a href="http://localhost:4000/">
+              
+                About me
+              
+            </a>
+          </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
-          
+              
+              <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
-          
+              
+              <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+              
+              <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            
           
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
@@ -142,6 +150,13 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <div class="language-switcher">
+  
+    <span class="current-lang">EN</span>
+    <a href="/fr/collection-archive/" class="lang-link">FR</a>
+  
+</div>
+
     </div>
   </div>
 </div>
@@ -492,7 +507,7 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/2012-03-01-talk-1" rel="permalink">Asymptotic Dynamic Graph Order Evolution Analysis
+        <a href="http://localhost:4000/talks/2012-03-01-talk-1" rel="permalink">Dynamic Graphs Generators Analysis: An Illustrative Case Study
 </a>
       
     </h2>
@@ -504,7 +519,19 @@
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><p>In this work, we investigate the analysis of generators for dynamic graphs, which are defined as graphs whose topology changes over time. We focus on generated graphs whose order (number of nodes) varies over time. We use a concept called “sustainability” to qualify the long-term evolution of dynamic graphs. A dynamic graph is considered sustainable if its evolution does not result in a static, empty, or periodic graph. To illustrate how the analysis can be conducted, a parameterized and probability-based generator, named D3G3 (Degree-Driven Dynamic Geometric Graphs Generator), has been introduced in a recent work. From this model, we derive multiple scenarios that correspond to three trends in graph order evolution. Our central contribution lies in a mathematical framework that provides an expectation of the order of the graph at time step , given its order at time step t. Nevertheless, our analysis underscores the challenge of characterizing the sustainability of dynamic graphs, even when a formal mathematical model for graph order evolution is known.</p>
+    <p class="archive__item-excerpt" itemprop="description"><p>In this work, we investigate the analysis of generators for dynamic graphs, which are defined as
+graphs whose topology changes over time. We focus on generated graphs whose orders are neither
+growing nor constant along time. We introduce a novel concept, called “sustainability,” to qualify the
+long-term evolution of dynamic graphs. A dynamic graph is considered sustainable if its evolution
+does not result in a static, empty, or periodic graph. To measure the dynamics of the sets of
+vertices and edges, we propose a metric, named “Nervousness,” which is derived from the Jaccard
+distance. As an illustration of how the analysis can be conducted, we design a parametrized generator,
+named D3G3 (Degree-Driven Dynamic Geometric Graphs Generator), that generates dynamic graph
+instances from an initial geometric graph. The evolution of these instances is driven by two rules that
+operate on the vertices based on their degree. By varying the parameters of the generator, different
+properties of the dynamic graphs can be produced. Our results show that in order to ascertain the
+sustainability of the generated dynamic graphs, it is necessary to study both the evolution of the
+order and the Nervousness for a given set of parameters.</p>
 </p>
     
     
@@ -668,7 +695,51 @@ It is shown that for simple cases a polynomial time algorithm can answer the que
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/teaching/2022-spring-teaching-1" rel="permalink">Operating Systems
+        <a href="http://localhost:4000/fr/teaching/2022-spring-teaching-1" rel="permalink">Environnement Numérique PIX
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Cours de Licence, <i>Université Le Havre Normandie, Département Informatique</i>, 2022 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="description">Description</h2>
+<p>Dans cette matière, l’objectif est de permettre aux étudiants d’apprendre les concepts de base d’un environnement numérique et de pouvoir utiliser les outils numériques. Dans ce cours, j’étais impliqué dans les travaux pratiques et les travaux dirigés.
+Un tel cours s’inscrit dans le processus de certification de littératie numérique PIX, qui est une certification nationale en France. La certification est obtenue en validant un certain nombre de compétences dans différents domaines (traitement d’image, traitement de texte, etc.). Les étudiants doivent valider 16 compétences pour obtenir la certification.</p>
+<h2 id="outils">Outils</h2>
+<p>Gimp, Inkscape, LibreOffice (Writer et Calc), navigateur web, client email</p>
+<h2 id="contenu">Contenu</h2>
+<p>Concepts de base d’un environnement numérique, utilisation d’outils numériques (suite bureautique, navigateur internet, client email, etc.)</p>
+<h2 id="heures-denseignement">Heures d’enseignement</h2>
+<p>24h/an de TP (2022–2024)</p>
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/2022-spring-teaching-1" rel="permalink">PIX Digital Literacy
 </a>
       
     </h2>
@@ -677,6 +748,97 @@ It is shown that for simple cases a polynomial time algorithm can answer the que
 
         
           <p> Course, <i>Université Le Havre Normandie, Computer Science Department</i>, 2022 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="description">Description</h2>
+<p>In this subject, the objective is to enable students to learn the basic concepts of a digital environment and to be able to use digital tools. In this course, I was involved in practical work and tutorials.
+Such a course is part of the PIX digital literacy certification process, which is a national certification in France. The certification is obtained by validating a certain number of skills in different areas (image processing, text processing, etc.). The students must validate 16 skills to obtain the certification.</p>
+<h2 id="tools">Tools</h2>
+<p>Gimp, Inkscape, LibreOffice (Writer and Calc), web browser, email client</p>
+<h2 id="content">Content</h2>
+<p>Basic concepts of a digital environment, use of digital tools (office suite, internet browser, email client, etc.)</p>
+<h2 id="teaching-hours">Teaching hours</h2>
+<p>24h/year labs (2022–2024)</p>
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/fr/teaching/2022-teaching-1" rel="permalink">Systèmes d’Exploitation
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Cours de Licence, <i>Université Le Havre Normandie, Département Informatique</i>, 2022 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="description">Description</h2>
+<p>Ce cours couvre les bases des systèmes d’exploitation. Les langages utilisés sont le C (pour les threads, processus, gestion mémoire, etc.) et bash (pour l’environnement de travail). Les concepts introduits dans ce cours concernent le fonctionnement d’un système d’exploitation.
+Les étudiants apprennent à utiliser les appels système, créer et manipuler des processus et threads, et manipuler un environnement de travail (commandes bash, variables d’environnement, et fichiers spéciaux, en particulier).
+Dans le cadre de ces cours, j’ai enseigné des cours magistraux. Pendant la deuxième année, j’ai écrit du matériel de cours en ligne et de travaux pratiques qui peut être trouvé sur <a href="https://github.com/vbridonneau/CoursSysteme/wiki">GitHub</a></p>
+<h2 id="langages">Langages</h2>
+<p>C (threads, processus, gestion mémoire, etc.), Bash (environnement de travail)</p>
+<h2 id="contenu">Contenu</h2>
+<p>Processus et threads, gestion mémoire, variables d’environnement, commandes Unix</p>
+<h2 id="matériel-de-cours">Matériel de cours</h2>
+<p><a href="https://github.com/vbridonneau/CoursSysteme/wiki">Notes de cours et de TP disponibles sur GitHub</a></p>
+<h2 id="heures-denseignement">Heures d’enseignement</h2>
+<p>20h de cours magistraux + 120h de TP (2022–2025)</p>
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/2022-teaching-1" rel="permalink">Operating Systems
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Undergraduate course, <i>Université Le Havre Normandie, Computer Science Department</i>, 2022 </p>
         
 
     
@@ -716,7 +878,7 @@ As part of these courses, I taught lectures. During the second year, I wrote onl
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/teaching/2022-teaching-1" rel="permalink">Algorithms and Programming
+        <a href="http://localhost:4000/fr/teaching/2022-spring-teaching-3" rel="permalink">Algorithmes et Programmation
 </a>
       
     </h2>
@@ -724,18 +886,18 @@ As part of these courses, I taught lectures. During the second year, I wrote onl
     
 
         
-          <p> Undergraduate course, <i>Université Le Havre Normandie, Computer Science Department</i>, 2022 </p>
+          <p> Cours de Licence, <i>Université Le Havre Normandie, Département Informatique</i>, 2022 </p>
         
 
     
     <p class="archive__item-excerpt" itemprop="description"><h2 id="description">Description</h2>
-<p>The aim of this course is to teach first- and second-year undergraduate students the basics of programming and algorithms. The languages used in this course are Java and Processing. During these classes, the programming concepts studied are procedural programming and object-oriented programming. The algorithmic concepts covered include algorithmic time complexity and concepts such as linked lists. During these classes, I used online materials written by a colleague. During the sessions, I would cover some theory to explain the basic concepts, then we would do the exercises in the materials to apply the newly introduced concepts.</p>
-<h2 id="languages">Languages</h2>
+<p>L’objectif de ce cours est d’enseigner aux étudiants de première et deuxième année de licence les bases de la programmation et des algorithmes. Les langages utilisés dans ce cours sont Java et Processing. Pendant ces cours, les concepts de programmation étudiés sont la programmation procédurale et la programmation orientée objet. Les concepts algorithmiques couverts incluent la complexité temporelle algorithmique et des concepts comme les listes chaînées. Pendant ces cours, j’ai utilisé du matériel en ligne écrit par un collègue. Pendant les séances, je couvrais de la théorie pour expliquer les concepts de base, puis nous faisions les exercices du matériel pour appliquer les concepts nouvellement introduits.</p>
+<h2 id="langages">Langages</h2>
 <p>Java, Processing</p>
-<h2 id="content">Content</h2>
-<p>Procedural and object-oriented programming, basic data structures (linked lists), algorithmic complexity</p>
-<h2 id="teaching-hours">Teaching hours</h2>
-<p>324h of lab sessions (2022–2025)</p>
+<h2 id="contenu">Contenu</h2>
+<p>Programmation procédurale et orientée objet, structures de données de base (listes chaînées), complexité algorithmique</p>
+<h2 id="heures-denseignement">Heures d’enseignement</h2>
+<p>324h de travaux pratiques (2022–2025)</p>
 </p>
     
     
@@ -759,7 +921,7 @@ As part of these courses, I taught lectures. During the second year, I wrote onl
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/teaching/2022-spring-teaching-3" rel="permalink">PIX Digital Literacy
+        <a href="http://localhost:4000/teaching/2022-spring-teaching-3" rel="permalink">Algorithms and Programming
 </a>
       
     </h2>
@@ -772,14 +934,13 @@ As part of these courses, I taught lectures. During the second year, I wrote onl
 
     
     <p class="archive__item-excerpt" itemprop="description"><h2 id="description">Description</h2>
-<p>In this subject, the objective is to enable students to learn the basic concepts of a digital environment and to be able to use digital tools. In this course, I was involved in practical work and tutorials.
-Such a course is part of the PIX digital literacy certification process, which is a national certification in France. The certification is obtained by validating a certain number of skills in different areas (image processing, text processing, etc.). The students must validate 16 skills to obtain the certification.</p>
-<h2 id="tools">Tools</h2>
-<p>Gimp, Inkscape, LibreOffice (Writer and Calc), web browser, email client</p>
+<p>The aim of this course is to teach first- and second-year undergraduate students the basics of programming and algorithms. The languages used in this course are Java and Processing. During these classes, the programming concepts studied are procedural programming and object-oriented programming. The algorithmic concepts covered include algorithmic time complexity and concepts such as linked lists. During these classes, I used online materials written by a colleague. During the sessions, I would cover some theory to explain the basic concepts, then we would do the exercises in the materials to apply the newly introduced concepts.</p>
+<h2 id="languages">Languages</h2>
+<p>Java, Processing</p>
 <h2 id="content">Content</h2>
-<p>Basic concepts of a digital environment, use of digital tools (office suite, internet browser, email client, etc.)</p>
+<p>Procedural and object-oriented programming, basic data structures (linked lists), algorithmic complexity</p>
 <h2 id="teaching-hours">Teaching hours</h2>
-<p>24h/year labs (2022–2024)</p>
+<p>324h of lab sessions (2022–2025)</p>
 </p>
     
     
@@ -838,7 +999,7 @@ Such a course is part of the PIX digital literacy certification process, which i
 
 <div class="page__footer-copyright">
   &copy; 2025 Vincent Bridonneau, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2025-09-04
+  Site last updated 2025-09-21
 </div>
 
       </footer>

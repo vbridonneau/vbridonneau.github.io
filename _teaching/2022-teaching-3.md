@@ -1,19 +1,19 @@
 ---
-title: "PIX Digital Literacy"
+title: "Algorithms and Programming"
 collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/2022-spring-teaching-3
 venue: "Université Le Havre Normandie, Computer Science Department"
 date: 2022-09-01
 location: "Le Havre, France"
+lang: en
 ---
 
 ## Description
-In this subject, the objective is to enable students to learn the basic concepts of a digital environment and to be able to use digital tools. In this course, I was involved in practical work and tutorials.
-Such a course is part of the PIX digital literacy certification process, which is a national certification in France. The certification is obtained by validating a certain number of skills in different areas (image processing, text processing, etc.). The students must validate 16 skills to obtain the certification.
-## Tools
- Gimp, Inkscape, LibreOffice (Writer and Calc), web browser, email client
+The aim of this course is to teach first- and second-year undergraduate students the basics of programming and algorithms. The languages used in this course are Java and Processing. During these classes, the programming concepts studied are procedural programming and object-oriented programming. The algorithmic concepts covered include algorithmic time complexity and concepts such as linked lists. During these classes, I used online materials written by a colleague. During the sessions, I would cover some theory to explain the basic concepts, then we would do the exercises in the materials to apply the newly introduced concepts.
+## Languages
+ Java, Processing  
 ## Content
- Basic concepts of a digital environment, use of digital tools (office suite, internet browser, email client, etc.)
+ Procedural and object-oriented programming, basic data structures (linked lists), algorithmic complexity  
 ## Teaching hours
- 24h/year labs (2022–2024)
+ 324h of lab sessions (2022–2025)

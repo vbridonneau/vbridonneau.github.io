@@ -1,23 +1,20 @@
 ---
-title: "Operating Systems"
+title: "PIX Digital Literacy"
 collection: teaching
 type: "Course"
 permalink: /teaching/2022-spring-teaching-1
 venue: "Université Le Havre Normandie, Computer Science Department"
 date: 2022-01-01
 location: "Le Havre, France"
+lang: en
 ---
 
 ## Description
-This course covers the basics of operating systems. The languages
-used are C (for threads, processes, memory management, etc.) and bash (for the working environment). The concepts introduced in this course relate to the functioning of an operating system.
-Students learn how to use system calls, create and manipulate processes and threads, and manipulate a working environment (bash commands, environment variables, and special files, in particular).
-As part of these courses, I taught lectures. During the second year, I wrote online course and lab materials that can be found on [GitHub](https://github.com/vbridonneau/CoursSysteme/wiki)  
-## Languages
- C (threads, processes, memory management, etc.), Bash (work environment)
+In this subject, the objective is to enable students to learn the basic concepts of a digital environment and to be able to use digital tools. In this course, I was involved in practical work and tutorials.
+Such a course is part of the PIX digital literacy certification process, which is a national certification in France. The certification is obtained by validating a certain number of skills in different areas (image processing, text processing, etc.). The students must validate 16 skills to obtain the certification.
+## Tools
+ Gimp, Inkscape, LibreOffice (Writer and Calc), web browser, email client
 ## Content
- Processes and threads, memory management, environment variables, Unix commands  
-## Course materials
- [Lecture and lab notes available on GitHub](https://github.com/vbridonneau/CoursSysteme/wiki)  
+ Basic concepts of a digital environment, use of digital tools (office suite, internet browser, email client, etc.)
 ## Teaching hours
- 20h lectures + 120h labs (2022–2025)
+ 24h/year labs (2022–2024)
